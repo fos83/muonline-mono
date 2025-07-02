@@ -12,9 +12,9 @@ namespace Client.Main.Worlds
     [WorldInfo(57, "Raklion")]
     public class World058World : WalkableWorldControl
     {
-        public World058World() : base(worldIndex: 58) // RAKLION
+        public World058World() : base(worldIndex: 58)
         {
-
+            Name = "Raklion";
         }
 
         public override void AfterLoad()

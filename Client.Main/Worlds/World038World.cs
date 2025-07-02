@@ -14,7 +14,7 @@ namespace Client.Main.Worlds
     {
         public World038World() : base(worldIndex: 38) // KANTURU (RUINS)
         {
-
+            Name = "Kanturu";
         }
 
         public override void AfterLoad()

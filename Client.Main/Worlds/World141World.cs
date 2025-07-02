@@ -12,9 +12,9 @@ namespace Client.Main.Worlds
     [WorldInfo(140, "Bloody Tarkan")]
     public class World141World : WalkableWorldControl
     {
-        public World141World() : base(worldIndex: 141) // BLOODY TARKAN
+        public World141World() : base(worldIndex: 141)
         {
-
+            Name = "Bloody Tarkan";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

@@ -14,7 +14,7 @@ namespace Client.Main.Worlds
     {
         public World122World() : base(worldIndex: 122) // 4TH QUEST
         {
-
+            Name = "Place of Qualification";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

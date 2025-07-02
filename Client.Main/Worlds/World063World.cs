@@ -14,6 +14,7 @@ namespace Client.Main.Worlds
     {
         public World063World() : base(worldIndex: 63) // SANTATOWN (SANTA VILLAGE)
         {
+            Name = "Santa Village";
         }
 
         public override void AfterLoad()
@@ -37,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

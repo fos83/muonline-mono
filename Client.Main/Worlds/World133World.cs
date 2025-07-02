@@ -12,9 +12,9 @@ namespace Client.Main.Worlds
     [WorldInfo(132, "Red Smoke Icarus")]
     public class World133World : WalkableWorldControl
     {
-        public World133World() : base(worldIndex: 133) // RED SMOKE ICARUS
+        public World133World() : base(worldIndex: 133)
         {
-
+            Name = "Red Smoke Icarus";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

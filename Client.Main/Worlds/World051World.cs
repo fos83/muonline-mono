@@ -9,7 +9,7 @@ namespace Client.Main.Worlds
     {
         public World051World() : base(worldIndex: 51)
         {
-
+            Name = "Elbeland 2";
         }
 
         public override void AfterLoad()
@@ -33,7 +33,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

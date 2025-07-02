@@ -14,7 +14,7 @@ namespace Client.Main.Worlds
     {
         public World069World() : base(worldIndex: 69) // DOPPELGANGER CRYSTALCAVE (CRYSTALS)
         {
-
+            Name = "Doppelganger Crystal Cave";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

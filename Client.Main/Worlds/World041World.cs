@@ -14,7 +14,7 @@ namespace Client.Main.Worlds
     {
         public World041World() : base(worldIndex: 41) // SILENT MAP (GM MAP)
         {
-
+            Name = "Silent Map";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

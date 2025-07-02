@@ -12,9 +12,9 @@ namespace Client.Main.Worlds
     [WorldInfo(80, "Karutan")]
     public class World081World : WalkableWorldControl
     {
-        public World081World() : base(worldIndex: 81) // KARUTAN
+        public World081World() : base(worldIndex: 81)
         {
-
+            Name = "Karutan";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

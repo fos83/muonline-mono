@@ -12,9 +12,9 @@ namespace Client.Main.Worlds
     [WorldInfo(63, "Vulcanus")]
     public class World064World : WalkableWorldControl
     {
-        public World064World() : base(worldIndex: 64) // VULCANUS
+        public World064World() : base(worldIndex: 64)
         {
-
+            Name = "Vulcanus";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

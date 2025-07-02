@@ -14,7 +14,7 @@ namespace Client.Main.Worlds
     {
         public World071World() : base(worldIndex: 71) // IMPERIAL GUARDIAN (GAION)
         {
-
+            Name = "Imperial Guardian 3";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

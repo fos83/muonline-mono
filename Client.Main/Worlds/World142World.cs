@@ -12,9 +12,9 @@ namespace Client.Main.Worlds
     [WorldInfo(141, "Tormenta Island")]
     public class World142World : WalkableWorldControl
     {
-        public World142World() : base(worldIndex: 142) // TORMENTA ISLAND
+        public World142World() : base(worldIndex: 142)
         {
-
+            Name = "Tormenta Island";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

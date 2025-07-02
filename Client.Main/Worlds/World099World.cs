@@ -14,7 +14,7 @@ namespace Client.Main.Worlds
     {
         public World099World() : base(worldIndex: 99) // ILLUSION TEMPLE LEAGUE
         {
-
+            Name = "Illusion Temple League";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

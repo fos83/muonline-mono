@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace Client.Main.Worlds
 {
-    [WorldInfo(128, "Abyss of Atlans")]
+    [WorldInfo(128, "Abyss of Atlans 1")]
     public class World129World : WalkableWorldControl
     {
-        public World129World() : base(worldIndex: 129) // ABYSS OF ATLANS 01
+        public World129World() : base(worldIndex: 129)
         {
-
+            Name = "Abyss of Atlans 1";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

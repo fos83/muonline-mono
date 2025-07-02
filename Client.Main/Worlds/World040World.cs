@@ -12,9 +12,9 @@ namespace Client.Main.Worlds
     [WorldInfo(39, "Refine Tower")]
     public class World040World : WalkableWorldControl
     {
-        public World040World() : base(worldIndex: 40) // REFINE TOWER
+        public World040World() : base(worldIndex: 40)
         {
-
+            Name = "Refine Tower";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

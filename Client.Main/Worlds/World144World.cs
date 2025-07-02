@@ -9,17 +9,18 @@ using System.Threading.Tasks;
 
 namespace Client.Main.Worlds
 {
-    [WorldInfo(112, "Ferea")]
-    public class World113World : WalkableWorldControl
+    [WorldInfo(143, "kardaMahal Underground Temple")]
+    public class World144World : WalkableWorldControl
     {
-        public World113World() : base(worldIndex: 113)
+        public World144World() : base(worldIndex: 144)
         {
-            Name = "Ferea";
+            Name = "kardaMahal Underground Temple";
+            BackgroundMusicPath = "Music/KardaMahal_Underground_Temple.mp3";
         }
 
         public override void AfterLoad()
         {
-            Vector2 defaultSpawn = new Vector2(236, 154);
+            Vector2 defaultSpawn = new Vector2(190, 230);
             Walker.Reset();
             bool shouldUseDefaultSpawn = false;
             if (MuGame.Network == null ||

@@ -12,9 +12,9 @@ namespace Client.Main.Worlds
     [WorldInfo(122, "Swamp of Darkness")]
     public class World123World : WalkableWorldControl
     {
-        public World123World() : base(worldIndex: 123) // SWAMP OF DARKNESS
+        public World123World() : base(worldIndex: 123)
         {
-
+            Name = "Swamp of Darkness";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

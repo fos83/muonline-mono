@@ -14,7 +14,7 @@ namespace Client.Main.Worlds
     {
         public World068World() : base(worldIndex: 68) // DOPPELGANGER UNDERWATER (SEA)
         {
-
+            Name = "Doppelganger Underwater";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

@@ -12,9 +12,9 @@ namespace Client.Main.Worlds
     [WorldInfo(82, "Doppelganger Renewal")]
     public class World083World : WalkableWorldControl
     {
-        public World083World() : base(worldIndex: 83) // DOPPELGANGER RENEWAL
+        public World083World() : base(worldIndex: 83)
         {
-
+            Name = "Doppelganger Renewal";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

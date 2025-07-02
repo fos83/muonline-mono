@@ -12,9 +12,9 @@ namespace Client.Main.Worlds
     [WorldInfo(116, "Deep Dungeon 1")]
     public class World117World : WalkableWorldControl
     {
-        public World117World() : base(worldIndex: 117) // DEEP DUNGEON 01
+        public World117World() : base(worldIndex: 117)
         {
-
+            Name = "Deep Dungeon 1";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

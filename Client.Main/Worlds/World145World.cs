@@ -1,4 +1,5 @@
 ﻿using Client.Main.Controls;
+using Client.Main.Core.Utilities;
 using Microsoft.Xna.Framework;
 using System;
 using System.Collections.Generic;
@@ -8,16 +9,17 @@ using System.Threading.Tasks;
 
 namespace Client.Main.Worlds
 {
-    public class World080World : WalkableWorldControl
+    [WorldInfo(144, "Swamp of Doom")]
+    public class World145World : WalkableWorldControl
     {
-        public World080World() : base(worldIndex: 80) // LOREN MARKET & EVENT SQUARE (01)
+        public World145World() : base(worldIndex: 145)
         {
-
+            Name = "Swamp of Doom";
         }
 
         public override void AfterLoad()
         {
-            Vector2 defaultSpawn = new Vector2(60, 50);
+            Vector2 defaultSpawn = new Vector2(190, 230);
             Walker.Reset();
             bool shouldUseDefaultSpawn = false;
             if (MuGame.Network == null ||
@@ -36,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

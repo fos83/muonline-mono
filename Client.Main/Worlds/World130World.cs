@@ -12,9 +12,9 @@ namespace Client.Main.Worlds
     [WorldInfo(129, "Abyss of Atlans 2")]
     public class World130World : WalkableWorldControl
     {
-        public World130World() : base(worldIndex: 130) // ABYSS OF ATLANS 02
+        public World130World() : base(worldIndex: 130)
         {
-
+            Name = "Abyss of Atlans 2";
         }
 
         public override void AfterLoad()

@@ -12,9 +12,9 @@ namespace Client.Main.Worlds
     [WorldInfo(102, "Tormented Square")]
     public class World103World : WalkableWorldControl
     {
-        public World103World() : base(worldIndex: 103) // TORMENTED SQUARE
+        public World103World() : base(worldIndex: 103)
         {
-
+            Name = "Tormented Square";
         }
 
         public override void AfterLoad()

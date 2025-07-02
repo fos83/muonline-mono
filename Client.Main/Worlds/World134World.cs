@@ -14,7 +14,7 @@ namespace Client.Main.Worlds
     {
         public World134World() : base(worldIndex: 134) // TEMPLE OF ARNIL (ARENIL TEMPLE)
         {
-
+            Name = "Temple of Arnil";
         }
 
         public override void AfterLoad()

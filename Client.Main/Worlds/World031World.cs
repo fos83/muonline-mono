@@ -12,8 +12,9 @@ namespace Client.Main.Worlds
     [WorldInfo(30, "Valley of Loren")]
     public class World031World : WalkableWorldControl
     {
-        public World031World() : base(worldIndex: 31) // VALLEY OF LOREN
+        public World031World() : base(worldIndex: 31)
         {
+            Name = "Valley of Loren";
 
         }
 

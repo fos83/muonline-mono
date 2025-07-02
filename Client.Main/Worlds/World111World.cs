@@ -14,7 +14,7 @@ namespace Client.Main.Worlds
     {
         public World111World() : base(worldIndex: 111) // NARS (AKERON PART)
         {
-
+            Name = "Nars";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

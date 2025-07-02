@@ -14,7 +14,7 @@ namespace Client.Main.Worlds
     {
         public World094World() : base(worldIndex: 94)
         {
-
+            Name = "Uruk Mountain 3";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

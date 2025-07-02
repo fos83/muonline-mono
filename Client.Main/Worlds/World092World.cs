@@ -14,7 +14,7 @@ namespace Client.Main.Worlds
     {
         public World092World() : base(worldIndex: 92) // AKERON (ALKMAR, UBAID & ARKA WAR)
         {
-
+            Name = "Acheron";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

@@ -7,7 +7,7 @@ namespace Client.Main.Worlds
     [WorldInfo(8, "Tarkan")]
     public class TarkanWorld : WalkableWorldControl
     {
-        public TarkanWorld() : base(worldIndex: 9) // TARKAN
+        public TarkanWorld() : base(worldIndex: 9)
         {
             Name = "Tarkan";
             BackgroundMusicPath = "Music/tarkan.mp3";

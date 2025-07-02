@@ -12,9 +12,9 @@ namespace Client.Main.Worlds
     [WorldInfo(45, "Illusion Temple")]
     public class World047World : WalkableWorldControl
     {
-        public World047World() : base(worldIndex: 47) // ILLUSION TEMPLE
+        public World047World() : base(worldIndex: 47)
         {
-
+            Name = "Illusion Temple";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

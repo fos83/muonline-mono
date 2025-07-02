@@ -14,7 +14,7 @@ namespace Client.Main.Worlds
     {
         public World072World() : base(worldIndex: 72) // IMPERIAL GUARDIAN (GAION)
         {
-
+            Name = "Imperial Guardian 2";
         }
 
         public override void AfterLoad()

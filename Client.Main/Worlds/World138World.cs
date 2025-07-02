@@ -12,9 +12,9 @@ namespace Client.Main.Worlds
     [WorldInfo(137, "Kanturu Undergrounds")]
     public class World138World : WalkableWorldControl
     {
-        public World138World() : base(worldIndex: 138) // KANTURU UNDERGROUNDS
+        public World138World() : base(worldIndex: 138)
         {
-
+            Name = "Kanturu Undergrounds";
         }
 
         public override void AfterLoad()

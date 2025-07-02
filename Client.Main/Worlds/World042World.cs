@@ -14,7 +14,7 @@ namespace Client.Main.Worlds
     {
         public World042World() : base(worldIndex: 42) // BARRACKS (BALGASS BARRACKS)
         {
-
+            Name = "Balgass Barracks";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

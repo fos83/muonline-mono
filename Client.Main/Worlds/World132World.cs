@@ -14,7 +14,7 @@ namespace Client.Main.Worlds
     {
         public World132World() : base(worldIndex: 132)
         {
-
+            Name = "Scorched Tunnels";
         }
 
         public override void AfterLoad()

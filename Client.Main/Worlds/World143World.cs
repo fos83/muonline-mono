@@ -12,9 +12,9 @@ namespace Client.Main.Worlds
     [WorldInfo(142, "Doppelganger Ice Zone (New)")]
     public class World143World : WalkableWorldControl
     {
-        public World143World() : base(worldIndex: 143) //
+        public World143World() : base(worldIndex: 143)
         {
-
+            Name = "Doppelganger Ice Zone (New)";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

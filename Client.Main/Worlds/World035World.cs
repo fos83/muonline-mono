@@ -12,9 +12,9 @@ namespace Client.Main.Worlds
     [WorldInfo(34, "Crywolf")]
     internal class World035World : WalkableWorldControl
     {
-        public World035World() : base(worldIndex: 35) // CRYWOLF
+        public World035World() : base(worldIndex: 35)
         {
-
+            Name = "Crywolf";
         }
 
         public override void AfterLoad()

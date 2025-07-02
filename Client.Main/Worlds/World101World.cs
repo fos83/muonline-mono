@@ -14,7 +14,7 @@ namespace Client.Main.Worlds
     {
         public World101World() : base(worldIndex: 101) // URUK MOUNTAIN (AKERON PART)
         {
-
+            Name = "Uruk Mountain";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

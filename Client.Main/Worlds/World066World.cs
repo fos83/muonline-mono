@@ -14,7 +14,7 @@ namespace Client.Main.Worlds
     {
         public World066World() : base(worldIndex: 66) // DOPPELGANGER ICEZONE (SNOW)
         {
-
+            Name = "Doppelganger Ice Zone";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

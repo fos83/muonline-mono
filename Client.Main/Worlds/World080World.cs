@@ -1,5 +1,4 @@
 ﻿using Client.Main.Controls;
-using Client.Main.Core.Utilities;
 using Microsoft.Xna.Framework;
 using System;
 using System.Collections.Generic;
@@ -9,17 +8,16 @@ using System.Threading.Tasks;
 
 namespace Client.Main.Worlds
 {
-    [WorldInfo(112, "Ferea")]
-    public class World113World : WalkableWorldControl
+    public class World080World : WalkableWorldControl
     {
-        public World113World() : base(worldIndex: 113)
+        public World080World() : base(worldIndex: 80) // LOREN MARKET & EVENT SQUARE (01)
         {
-            Name = "Ferea";
+
         }
 
         public override void AfterLoad()
         {
-            Vector2 defaultSpawn = new Vector2(236, 154);
+            Vector2 defaultSpawn = new Vector2(60, 50);
             Walker.Reset();
             bool shouldUseDefaultSpawn = false;
             if (MuGame.Network == null ||

@@ -12,9 +12,9 @@ namespace Client.Main.Worlds
     [WorldInfo(135, "Old Kethotum")]
     public class World136World : WalkableWorldControl
     {
-        public World136World() : base(worldIndex: 136) // OLD KETHOTUM
+        public World136World() : base(worldIndex: 136)
         {
-
+            Name = "Old Kethotum";
         }
 
         public override void AfterLoad()

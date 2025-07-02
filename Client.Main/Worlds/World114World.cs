@@ -12,9 +12,9 @@ namespace Client.Main.Worlds
     [WorldInfo(113, "Nixies Lake")]
     public class World114World : WalkableWorldControl
     {
-        public World114World() : base(worldIndex: 114) // NIXIES LAKE
+        public World114World() : base(worldIndex: 114)
         {
-
+            Name = "Nixies Lake";
         }
 
         public override void AfterLoad()
@@ -37,7 +37,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

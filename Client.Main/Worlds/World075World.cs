@@ -14,7 +14,7 @@ namespace Client.Main.Worlds
     {
         public World075World() : base(worldIndex: 75)
         {
-
+            Name = "Event Square";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

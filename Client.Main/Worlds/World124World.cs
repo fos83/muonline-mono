@@ -12,9 +12,9 @@ namespace Client.Main.Worlds
     [WorldInfo(123, "Kubera Mine")]
     public class World124World : WalkableWorldControl
     {
-        public World124World() : base(worldIndex: 124) // KUBERA MINE
+        public World124World() : base(worldIndex: 124)
         {
-
+            Name = "Kubera Mine";
         }
 
         public override void AfterLoad()

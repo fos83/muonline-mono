@@ -14,7 +14,7 @@ namespace Client.Main.Worlds
     {
         public World057World() : base(worldIndex: 57) // SWAMP OF PEACE (CALMNESS)
         {
-
+            Name = "Swamp of Peace";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

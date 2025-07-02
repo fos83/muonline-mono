@@ -7,7 +7,7 @@ namespace Client.Main.Worlds
     [WorldInfo(9, "Devil Square")]
     public class DevilSquareWorld : WalkableWorldControl
     {
-        public DevilSquareWorld() : base(worldIndex: 10) // DEVIL SQUARE
+        public DevilSquareWorld() : base(worldIndex: 10)
         {
             Name = "Devil Square";
             BackgroundMusicPath = "Music/devil_square_intro.mp3";

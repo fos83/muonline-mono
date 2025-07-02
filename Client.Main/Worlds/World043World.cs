@@ -14,7 +14,7 @@ namespace Client.Main.Worlds
     {
         public World043World() : base(worldIndex: 43) // REFUGE (BALGASS RESTING PLACE)
         {
-
+            Name = "Balgass Refuge";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

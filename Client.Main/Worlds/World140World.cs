@@ -12,9 +12,9 @@ namespace Client.Main.Worlds
     [WorldInfo(139, "Boss Battle Zone")]
     public class World140World : WalkableWorldControl
     {
-        public World140World() : base(worldIndex: 140) // BOSS BATTLE ZONE
+        public World140World() : base(worldIndex: 140)
         {
-
+            Name = "Boss Battle Zone";
         }
 
         public override void AfterLoad()

@@ -14,7 +14,7 @@ namespace Client.Main.Worlds
     {
         public World059World() : base(worldIndex: 59) // RAKLION BOSS (SELUPAM)
         {
-
+            Name = "Raklion Boss";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

@@ -14,7 +14,7 @@ namespace Client.Main.Worlds
     {
         public World137World() : base(worldIndex: 137) // BLAZE KETHOTUM (BURNING KETHOTUM)
         {
-
+            Name = "Blaze Kethotum";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

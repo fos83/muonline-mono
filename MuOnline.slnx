@@ -1,0 +1,17 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="Client.Data/Client.Data.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+  </Project>
+  <Project Path="Client.Editor/Client.Editor.csproj" />
+  <Project Path="Client.Main/Client.Main.csproj" />
+  <Project Path="MuAndroid/MuAndroid.csproj">
+    <Deploy Solution="Debug|Any CPU" />
+  </Project>
+  <Project Path="MuIos/MuIos.csproj" />
+  <Project Path="MuLinux/MuLinux.csproj" />
+  <Project Path="MuWin/MuWin.csproj" />
+</Solution>

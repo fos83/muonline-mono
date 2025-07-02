@@ -14,7 +14,7 @@ namespace Client.Main.Worlds
     {
         public World135World() : base(worldIndex: 135) // ASHEN AIDA (GRAY AIDA)
         {
-
+            Name = "Ashen Aida";
         }
 
         public override void AfterLoad()

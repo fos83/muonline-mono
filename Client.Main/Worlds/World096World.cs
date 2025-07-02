@@ -14,7 +14,7 @@ namespace Client.Main.Worlds
     {
         public World096World() : base(worldIndex: 96) // DEBENTER (AKERON PART)
         {
-
+            Name = "Debenter";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }

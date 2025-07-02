@@ -7,7 +7,7 @@ namespace Client.Main.Worlds
     [WorldInfo(6, "Arena")]
     public class StadiumWorld : WalkableWorldControl
     {
-        public StadiumWorld() : base(worldIndex: 7) // ARENA
+        public StadiumWorld() : base(worldIndex: 7)
         {
             Name = "Arena";
         }

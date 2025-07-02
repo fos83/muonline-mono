@@ -12,9 +12,9 @@ namespace Client.Main.Worlds
     [WorldInfo(64, "Duel Arena")]
     public class World065World : WalkableWorldControl
     {
-        public World065World() : base(worldIndex: 65) // DUELARENA
+        public World065World() : base(worldIndex: 65)
         {
-
+            Name = "Duel Arena";
         }
 
         public override void AfterLoad()
@@ -38,7 +38,7 @@ namespace Client.Main.Worlds
             }
             Walker.MoveTargetPosition = Walker.TargetPosition;
             Walker.Position = Walker.TargetPosition;
-            
+
             base.AfterLoad();
         }
     }
