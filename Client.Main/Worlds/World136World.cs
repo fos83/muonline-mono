@@ -15,6 +15,7 @@ namespace Client.Main.Worlds
         public World136World() : base(worldIndex: 136)
         {
             Name = "Old Kethotum";
+            BackgroundMusicPath = "Music/OldKethotum.mp3";
         }
 
         public override void AfterLoad()

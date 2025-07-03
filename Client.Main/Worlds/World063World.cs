@@ -15,6 +15,7 @@ namespace Client.Main.Worlds
         public World063World() : base(worldIndex: 63) // SANTATOWN (SANTA VILLAGE)
         {
             Name = "Santa Village";
+            BackgroundMusicPath = "Music/Santa_Village.mp3";
         }
 
         public override void AfterLoad()

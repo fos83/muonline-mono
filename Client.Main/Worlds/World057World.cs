@@ -15,6 +15,7 @@ namespace Client.Main.Worlds
         public World057World() : base(worldIndex: 57) // SWAMP OF PEACE (CALMNESS)
         {
             Name = "Swamp of Peace";
+            BackgroundMusicPath = "Music/SwampOfCalmness.mp3";
         }
 
         public override void AfterLoad()

@@ -15,6 +15,7 @@ namespace Client.Main.Worlds
         public World134World() : base(worldIndex: 134) // TEMPLE OF ARNIL (ARENIL TEMPLE)
         {
             Name = "Temple of Arnil";
+            BackgroundMusicPath = "Music/ArenilTemple.mp3";
         }
 
         public override void AfterLoad()

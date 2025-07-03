@@ -15,6 +15,7 @@ namespace Client.Main.Worlds
         public World042World() : base(worldIndex: 42) // BARRACKS (BALGASS BARRACKS)
         {
             Name = "Balgass Barracks";
+            BackgroundMusicPath = "Music/BalgasBarrack.mp3"; // Assuming this is the correct music path
         }
 
         public override void AfterLoad()

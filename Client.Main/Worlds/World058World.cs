@@ -15,6 +15,7 @@ namespace Client.Main.Worlds
         public World058World() : base(worldIndex: 58)
         {
             Name = "Raklion";
+            BackgroundMusicPath = "Music/Raklion.mp3";
         }
 
         public override void AfterLoad()

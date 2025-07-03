@@ -15,6 +15,7 @@ namespace Client.Main.Worlds
         public World082World() : base(worldIndex: 82)
         {
             Name = "Karutan 2";
+            BackgroundMusicPath = "Music/Karutan_B.mp3";
         }
 
         public override void AfterLoad()

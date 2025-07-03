@@ -15,6 +15,7 @@ namespace Client.Main.Worlds
         public World059World() : base(worldIndex: 59) // RAKLION BOSS (SELUPAM)
         {
             Name = "Raklion Boss";
+            BackgroundMusicPath = "Music/Raklion_Hatchery.mp3";
         }
 
         public override void AfterLoad()

@@ -15,6 +15,7 @@ namespace Client.Main.Worlds
         public World141World() : base(worldIndex: 141)
         {
             Name = "Bloody Tarkan";
+            BackgroundMusicPath = "Music/BloodTarkan.mp3";
         }
 
         public override void AfterLoad()

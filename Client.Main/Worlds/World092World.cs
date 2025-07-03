@@ -15,6 +15,7 @@ namespace Client.Main.Worlds
         public World092World() : base(worldIndex: 92) // AKERON (ALKMAR, UBAID & ARKA WAR)
         {
             Name = "Acheron";
+            BackgroundMusicPath = "Music/Acheron.mp3";
         }
 
         public override void AfterLoad()

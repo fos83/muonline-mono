@@ -15,6 +15,7 @@ namespace Client.Main.Worlds
         public World123World() : base(worldIndex: 123)
         {
             Name = "Swamp of Darkness";
+            BackgroundMusicPath = "Music/SwampOfDarkness.mp3";
         }
 
         public override void AfterLoad()

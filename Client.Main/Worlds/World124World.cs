@@ -15,6 +15,7 @@ namespace Client.Main.Worlds
         public World124World() : base(worldIndex: 124)
         {
             Name = "Kubera Mine";
+            BackgroundMusicPath = "Music/KuberaMine.mp3";
         }
 
         public override void AfterLoad()

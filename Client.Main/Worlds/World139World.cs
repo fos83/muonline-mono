@@ -15,6 +15,7 @@ namespace Client.Main.Worlds
         public World139World() : base(worldIndex: 139)
         {
             Name = "Ignis Volcano";
+            BackgroundMusicPath = "Music/IgnisVolcano.mp3";
         }
 
         public override void AfterLoad()

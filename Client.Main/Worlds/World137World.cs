@@ -15,6 +15,7 @@ namespace Client.Main.Worlds
         public World137World() : base(worldIndex: 137) // BLAZE KETHOTUM (BURNING KETHOTUM)
         {
             Name = "Blaze Kethotum";
+            BackgroundMusicPath = "Music/BlazeKethotum.mp3";
         }
 
         public override void AfterLoad()
